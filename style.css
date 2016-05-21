@@ -1,0 +1,113 @@
+body * {
+	box-sizing: border-box;
+}
+
+
+body {
+	background: url("images/bluebg.png");
+}
+
+.links {
+	text-align: center;
+}
+
+#wrapper {
+	background-color: whitesmoke;
+	margin: auto;
+	min-height: 1210px;
+	width: 80%;
+}
+
+h1 {
+	color: tomato;
+	font-family: 'Cabin', sans-serif;
+	padding-top: 2rem;
+	text-align: center;
+	
+}
+
+h2, h3 {
+	clear: both;
+	font-family: 'Cabin', sans-serif;
+	padding-left: 2rem;
+	padding-top: 2rem;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+p {
+	clear: both;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+nav {
+	color: #6495ed;
+	/*display: inline;*/
+	font-family: sans-serif;
+	padding-bottom: 2rem;
+	text-align: center;
+	/*text-decoration: none;*/	
+}
+
+a:visited {
+	color: #6495ed;
+}
+
+a:hover {
+	color: #87cefa;
+}
+
+hr {
+	background-color: tomato;
+	border: 0 none;
+	color: tomato;
+	height: .2rem;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;	
+}
+
+article {
+	float: left;
+	width: 60%;
+}
+
+aside {
+	
+/*	border: .2rem solid black;
+	border-radius: 2rem;*/
+	float: right;
+	/*height: 10rem;
+	padding-right: 2rem;
+	width: 8rem;*/
+
+}
+
+.profile {
+	border: .2rem solid silver;
+	border-radius: 2rem;
+	height: 24rem;
+	padding-right: 2rem;
+	width: 20rem;
+}
+
+.webImageLeft {
+	border: .2rem solid silver;
+	border-radius: 2rem;
+	float: left;
+	height: 300px;
+	padding-left: 2rem;
+	width: 49%;	
+}
+
+.webImageRight {
+	border: .2rem solid silver;
+	border-radius: 2rem;
+	float: right;
+	height: 300px;
+	padding-right: 2rem;
+	width: 49%;
+}
